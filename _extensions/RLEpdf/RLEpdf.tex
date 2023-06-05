@@ -25,7 +25,7 @@
      % logo
     \AtPageLowerLeft{% start the bar at the bottom right of the page
         \put(\LenToUnit{\dimexpr\paperwidth-2.25cm},27.2cm){% move it to the top right
-            \color{light}\includegraphics[width=1.5cm]{_extensions/red-list-ecosystems/RLEpdf/logo_RLE.png}
+            \color{light}\includegraphics[width=1.5cm]{_extensions/red-list-ecosystem/RLEpdf/logo_RLE.png}
           }%
      }%
 }
@@ -57,3 +57,21 @@
 }
 \makeatother
 
+%%Use some custom fonts
+\setsansfont{Ubuntu}[
+    Path=_extensions/red-list-ecosystem/RLEpdf/Ubuntu/,
+    Scale=0.9,
+    Extension = .ttf,
+    UprightFont=*-Regular,
+    BoldFont=*-Bold,
+    ItalicFont=*-Italic,
+    ]
+
+\setmainfont{Ubuntu}[
+    Path=_extensions/red-list-ecosystem/RLEpdf/Ubuntu/,
+    Scale=0.9,
+    Extension = .ttf,
+    UprightFont=*-Regular,
+    BoldFont=*-Bold,
+    ItalicFont=*-Italic,
+    ]
