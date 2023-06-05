@@ -1,6 +1,8 @@
-# PrettyPDF
+# RLEpdf
 
 Quarto extension for a template to generate a PDF with (pretty) LaTeX styling for RLE assessments.
+
+Based on: https://github.com/nrennie/PrettyPDF
 
 ## Installation and use
 
