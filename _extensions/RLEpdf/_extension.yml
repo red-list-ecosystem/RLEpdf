@@ -1,11 +1,11 @@
-title: PrettyPDF
-author: Nicola Rennie
+title: RLEpdf
+author: JR Ferrer-Paris
 version: 0.0.1
 contributes:
   formats: 
     pdf:
       include-in-header: 
-       - "PrettyPDF.tex"
+       - "RLEpdf.tex"
       include-before-body:
        - "pagestyle.tex"
       toc: false
