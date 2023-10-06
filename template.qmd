@@ -1,6 +1,22 @@
 ---
 title: "IUCN Red List of Ecosystems assessment with Quarto"
 format: RLEpdf-pdf
+author:
+  - name: Author Name
+    affiliations:
+      - name: An Organization
+        department: The Department
+        address: 1 First St
+        city: Boston
+        country: USA
+        postal-code: 02210-1022
+      - A second affilication
+    orcid: 0000-0000-0000-0000
+    email: sm@example.org
+    url: https://example.org/
+  - name: A.N. Author
+    affiliations:
+      - Another Affiliation
 ---
 
 ## Quarto
